@@ -48,9 +48,22 @@ int main(){
 */
 
 //zd.8
+    /*
     int main() {
         int i;
         for (i = 0; i < 100; i = i + 2) {
+            cout << i << endl;
+        }
+    }
+    */
+
+//zd.9
+    int main() {
+        int n;
+        cout << "podaj dzielnik: ";
+        cin >> n;
+        int i;
+        for (i = 0; i <= 100; i = i + n) {
             cout << i << endl;
         }
     }
