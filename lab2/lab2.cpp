@@ -28,7 +28,7 @@ int main(){
 */
 
 //zd.7
-
+    /*
     int main(){
 
         int i = 0;
@@ -45,3 +45,12 @@ int main(){
         }
 
 }
+*/
+
+//zd.8
+    int main() {
+        int i;
+        for (i = 0; i < 100; i = i + 2) {
+            cout << i << endl;
+        }
+    }
