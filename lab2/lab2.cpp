@@ -7,6 +7,8 @@
 
 // zd. 5, na celciuszach beądą zera, bo nie będzie wiedział że ma brać z liczb wymiernych nawet jak jest  float
 // zd.6 
+
+/*
 int main(){
 
     int fahr, celsius, start, limit, krok;
@@ -23,5 +25,23 @@ int main(){
     }
     
 }
+*/
 
+//zd.7
 
+    int main(){
+
+        int i = 0;
+        for (i = 0; i < 10; i++) {
+            double liczba;
+                cout << "podaj liczbe: ";
+            cin >>  liczba;
+            if (liczba > 0) {
+                cout << liczba << endl;
+            }
+            else {
+                cout << "spróbuj jeszcze raz, liczba jest niedodatnia" << endl;
+            }
+        }
+
+}
