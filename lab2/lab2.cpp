@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <stdio.h>
+#include <cmath> 
     using namespace std;
 
 
@@ -58,6 +59,7 @@ int main(){
     */
 
 //zd.9
+   /*
     int main() {
         int n;
         cout << "podaj dzielnik: ";
@@ -66,4 +68,33 @@ int main(){
         for (i = 0; i <= 100; i = i + n) {
             cout << i << endl;
         }
+    }
+    */
+
+
+#include <iostream>
+#include <stdio.h>
+#include <cmath> 
+    using namespace std;
+
+
+    int main() {
+        int n;
+        int i;
+        int count = 0;
+        cout << "podaj dzielnik";
+        cin >> n;
+        if (n == 0) {
+            cout << " nie można dzielić przez zero " << endl;
+            return 1;
+        }
+        for (i = 0 ; i =< 100; i = i + 1) {
+            if (i % n == 0) {
+                count = count + 1;
+            }
+        cout << "jest " << count << "liczb podzoelnych przez " << n << "w przedziale [0;100]" << endl;
+
+        }
+        c
+            
     }
