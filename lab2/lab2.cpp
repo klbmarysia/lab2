@@ -102,6 +102,7 @@ int main(){
     */
     //zd.11
 
+    /*
     int main() {
         int a;
         int b;
@@ -130,3 +131,64 @@ int main(){
 
 
     }
+    */
+    // zd.13
+    /*
+    int main() {
+        for (int i = 100; i >= 1; i--) {
+            cout << i << endl;
+        }
+
+
+
+
+
+    }
+    
+    int main() {
+        int a;
+        int b;
+        int c;
+        cout << "podaj wartość całkowita ";
+        cin >> a;
+        cout << "podaj wartość całkowita ";
+        cin >> b;
+        cout << "podaj wartość całkowita ";
+        cin >> c;
+        if (a < b && a < c) {
+            cout << a;
+        }
+        else if (b < a && b < c) {
+            cout << b;
+        }
+        else if (c < a && c < b) {
+            cout << c;
+        }
+    }
+    */
+
+    
+    // zd.15
+
+
+
+/*
+#include <cstdlib>
+    int main() {
+        int n;
+        int m; 
+        cout << " podaj ile liczb chcesz wygenerować  ";
+        cin >> n;
+        cout << "podaj jaka może być liczba maksymalna ";
+        cin >> m;
+        for (int i = 0; i < n; i++) {
+            int k = rand() % m + 1;
+            cout << k << endl;
+
+        }
+        
+
+    }
+    */
+
+
