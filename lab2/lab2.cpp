@@ -190,5 +190,29 @@ int main(){
 
     }
     */
+// zd. 16
+#include <cstdlib>
+    int main() {
+        int a;
+        cout << "Podaj szczesliwy numerek z przedzialu od 1 do 10 ";
+        cin >> a;
+        if (a > 10 or a < 1) {
+            cout << "Numer poza przedzialem ";
+            return 1;
+        }
+        else {
+            int min = 1;
+            int max = 10;
+            int k = 0;
+            for (int i = 0; i < 10; i++) {
+                int losowa = rand() % (max - min + 1) + min;
+                cout << losowa << endl;
+                if (a == losowa) {
+                    k++;
+                }
+            }
+            cout << "twoja liczba zostala wylosowana "<< k<< "razy." << endl;
+        }
+    }
 
 
